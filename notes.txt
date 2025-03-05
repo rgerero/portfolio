@@ -1,0 +1,24 @@
+--=== Create React Proj & Checkin the code to GitHub ===--
+npm create vite@latest portfolio --template react
+ - React
+ - Typescript
+cd portfolio
+npm install
+npm run dev
+git init
+git remote add origin https://github.com/rgerero/portfolio.git
+git add .
+git commit -m "Initial Vite React setup"
+git branch -M main
+git push -u origin main
+git push -f origin main - use this if the repo have already some commits
+
+--=== Add Workflows (CI/CD) ===--
+1. Go to the code repo > settings > Pages
+   - change the source of dropdown to "GitHub Actions"
+2. Add this file from root folder
+ - .github/workflows/cicd.yml
+3. Add the below properties in the package.json along with "name"
+ - "homepage": "https://rgerero.github.io/react-app/",
+4. Update the "defineConfig" in vite.config.ts by adding the below entry before plugins.
+ - base: '/react-app/', // 👈 Set this to your GitHub repo name
