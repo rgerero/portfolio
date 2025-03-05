@@ -16,9 +16,11 @@ git push -f origin main - use this if the repo have already some commits
 --=== Add Workflows (CI/CD) ===--
 1. Go to the code repo > settings > Pages
    - change the source of dropdown to "GitHub Actions"
+   Note: for free version you have to make your repo public.
 2. Add this file from root folder
  - .github/workflows/cicd.yml
 3. Add the below properties in the package.json along with "name"
  - "homepage": "https://rgerero.github.io/react-app/",
 4. Update the "defineConfig" in vite.config.ts by adding the below entry before plugins.
  - base: '/react-app/', // 👈 Set this to your GitHub repo name
+
