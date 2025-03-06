@@ -1,3 +1,6 @@
+https://rgerero.github.io/portfolio/
+https://alfredryangerero.netlify.app/
+
 --=== Create React Proj & Checkin the code to GitHub ===--
 npm create vite@latest portfolio --template react
  - React
@@ -23,4 +26,7 @@ git push -f origin main - use this if the repo have already some commits
  - "homepage": "https://rgerero.github.io/react-app/",
 4. Update the "defineConfig" in vite.config.ts by adding the below entry before plugins.
  - base: '/react-app/', // 👈 Set this to your GitHub repo name
+
+GitHub is best for static pages
+Vercel & Netlify work seamlessly with react & vite and has built-in analytics
 
