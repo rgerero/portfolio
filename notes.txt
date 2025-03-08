@@ -30,3 +30,11 @@ git push -f origin main - use this if the repo have already some commits
 GitHub is best for static pages
 Vercel & Netlify work seamlessly with react & vite and has built-in analytics
 
+Netlify - manual deployment
+ - npm install -g netlify-cli
+ - netlify login
+ - netlify link -> follow the prompts to link in your project
+ - npm run build
+ - netlify deploy --dir=dist -> this will provide you a draft url to test the result
+ - netlify deploy --prod -> this will deploy in your actual site in your netlify acct
+
