@@ -38,7 +38,7 @@ function App() {
     <ThemeProvider>
       <div className="min-h-screen bg-gray-900 dark:bg-black font-sans transition-colors duration-300">
         
-        <header className="bg-gray-800 dark:bg-gray-900 shadow-lg p-4 sticky top-0 z-10 transition-colors duration-300">
+        <header className="bg-gray-800 dark:bg-gray-900 shadow-lg p-4 sticky top-0 z-10 transition-colors duration-300 overflow-x-hidden">
           <nav className="max-w-6xl mx-auto flex justify-center items-center">
             {/* <div className="text-2xl font-bold text-white">Alfred Gerero</div> */}
             <div className="flex items-center space-x-4">
