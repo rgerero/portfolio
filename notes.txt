@@ -37,6 +37,7 @@ Vercel & Netlify work seamlessly with react & vite and has built-in analytics
 Netlify - manual deployment
  - npm install -g netlify-cli
  - netlify login
+ - netlify status
  - netlify link -> follow the prompts to link in your project
  - npm run build
  - netlify deploy --dir=dist -> this will provide you a draft url to test the result
