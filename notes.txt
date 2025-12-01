@@ -7,6 +7,10 @@ npm create vite@latest portfolio --template react
  - Typescript
 cd portfolio
 npm install
+npm install -D tailwindcss@3.4.14 postcss autoprefixer
+npx tailwindcss init -p
+npm install @mui/material @emotion/react @emotion/styled
+npm install lucide-react
 npm run dev
 git init
 git remote add origin https://github.com/rgerero/portfolio.git
@@ -38,3 +42,7 @@ Netlify - manual deployment
  - netlify deploy --dir=dist -> this will provide you a draft url to test the result
  - netlify deploy --prod -> this will deploy in your actual site in your netlify acct
 
+
+-- Starting to Build websites
+Pre requisites
+-npm install react-router-dom

@@ -23,6 +23,8 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
+      // Turn off the strict Fast Refresh rule for this project
+      'react-refresh/only-export-components': 'off', 
     },
   },
 )
